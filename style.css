@@ -63,11 +63,11 @@ body
     border-radius: 60px;
     color: black;
 }
-.header nav .navbar a.active
+.header nav .navbar a .active
 {
     background-color: rgb(52, 52, 56);
     border-radius: 56px;
-    color: white;
+    color: red;
 }
 /*menu section starts*/
 /*menu section ends*/
@@ -697,6 +697,7 @@ services .box-container .box::after
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
     position: static;
+    min-height: 10vh;
 }
 .review h1
 {
@@ -716,17 +717,17 @@ services .box-container .box::after
     flex-direction: column;
     flex-wrap: nowrap;
     position: static;
-    height: 30rem;
+    height: 10rem;
     perspective: 10rem;
-    margin-top: 25rem;
-    margin-bottom: rem;
+    margin-top: 10rem;
+    margin-bottom: 0rem;
 }*/
 /*side error*/
 /*.review .carousel .carousel-item
 {
     margin-right: -10rem;
     width: 250px;
-    height: auto;
+    height: 250px;
     background: #2d0b00;
     padding: 50px;
     text-align: center;
@@ -737,14 +738,14 @@ services .box-container .box::after
 .review .testi
 {
     text-decoration: none;
-    position: static;
+    position: fixed;
     text-align: center;
     justify-content: center;
 }
 .review .img-area
 {
     width: 15rem;
-    height: 15rem;
+    height: 14rem;
     margin: 0 auto;
     overflow: hidden;
     border: inset 8px wheat;
@@ -757,7 +758,7 @@ services .box-container .box::after
 {
     color: white;
     font-size: 1.5rem;
-    line-height: 1.7;
+    line-height: 1.7rem;
 }
 .review .testi h4
 {
@@ -767,6 +768,7 @@ services .box-container .box::after
     text-decoration: overline;
 }
 /*review section ends*/
+
 /*contact section starts*/
 .contact
 {
